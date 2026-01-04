@@ -53,17 +53,20 @@ Typical use cases include:
 
 ## Architecture Overview
 
+```text
 +--------------------------+
-| Automation Layer |
-| (SDKs / AI Agents) |
+|     Automation Layer     |
+|    (SDKs / AI Agents)    |
 +------------+-------------+
-|
-| Local HTTP API
-|
+             |
+             | Local HTTP API
+             |
 +------------v-------------+
-| FFBrowser Core |
+|      FFBrowser Core      |
 | (Commercial Browser App) |
 +--------------------------+
+```
+
 
 
 - The **FFBrowser core** runs locally as a background service
