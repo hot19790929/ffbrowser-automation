@@ -1,177 +1,76 @@
-# FFBrowser Automation & Local API
+# FFBrowser 飞鱼智能指纹浏览器 - 智能控制台
 
-FFBrowser Automation is an **open automation ecosystem** built on top of **FFBrowser** —  
-a commercial browser platform designed for **deterministic browser environments**, scalable automation, and long-running workflows.
+[English](./README_EN.md) | [中文](./README.md)
 
-This repository focuses on **automation, integration, and developer tooling**.  
-The browser core itself is distributed separately under a commercial license.
+**飞鱼智能指纹浏览器 (FFBrowser)** 是一款专为隐私保护和自动化设计的专业级浏览器平台。本仓库是 FFBrowser 的**智能控制台**（Intelligent Console）和**自动化生态系统**的官方主页，提供 SDK、API 文档和开发者工具。
 
-> ⚠️ Important  
-> The FFBrowser core (browser executable and environment engine) is a **commercial product**.  
-> This repository provides **open-source SDKs, examples, and Local API documentation**.
+官网: [https://www.ffbrowser.xyz](https://www.ffbrowser.xyz)
 
----
+## 🌟 核心功能
 
-## What is FFBrowser?
+飞鱼浏览器不仅是一个防关联工具，更是一个强大的自动化基础设施。
 
-FFBrowser is a **browser environment platform** that allows developers to run and control multiple isolated browser environments programmatically.
+### 🛡️ 硬件级防指纹 & 隐私保护
+- **深度模拟**: 修改操作系统及硬件环境特征，配合种子值扰动，实现真实的硬件级防关联。
+- **通过主流检测**: 完美通过 BrowserScan, Iphey, PixelScan，等主流指纹检测平台。
+- **本地数据存储**: 所有数据保存在本地，不同步云端，彻底保护用户数据安全。
 
-Key characteristics:
+### 💻 多平台 & 多品牌支持
+- **多系统模拟**: 支持在windows上模拟 Windows 10/11, macOS 12-15, Android 10-14。
+- **多浏览器内核**: 自定义浏览器品牌（Edge, Chrome, Brave 等）及版本号。
 
-- Isolated browser environments
-- Deterministic and reproducible browser sessions
-- Controlled runtime variability
-- Local HTTP API–driven control
-- Designed to run as a long-lived local service
+### 🤖 智能控制台 & 自动化 (本仓库核心)
+- **本地 API/SDK**: 提供强大的本地 HTTP API，支持二次开发。
+- **无限调用**: 不限调用频率，不限窗口数量。
+- **自动化集成**: 易于集成 Selenium, Puppeteer, Playwright 等自动化框架。
+- **AI Agent Ready**: 专为 AI Agent 设计的确定性执行环境。
 
-FFBrowser is not a short-lived automation runner.  
-It is designed to act as a **persistent browser service** that can be orchestrated externally.
-
----
-
-## Why FFBrowser Automation?
-
-Modern automation systems require more than launching and closing browsers.
-
-FFBrowser Automation enables:
-
-- Programmatic lifecycle control of browser environments
-- Parallel execution of multiple browser sessions
-- Stable environments for long-running tasks
-- Clear separation between browser core and automation logic
-- Easy integration with automation frameworks and AI agents
-
-Typical use cases include:
-
-- Web automation and crawling
-- Session-based workflow execution
-- Task orchestration systems
-- AI-driven browser agents
-- Automation platforms and services
-
----
-
-## Architecture Overview
+## 🚀 架构概览
 
 ```text
 +--------------------------+
-|     Automation Layer     |
-|    (SDKs / AI Agents)    |
+|     自动化层 / AI Agent   |
+|   (SDKs / Python / JS)   |
 +------------+-------------+
              |
-             | Local HTTP API
+             | 本地 HTTP API
              |
 +------------v-------------+
-|      FFBrowser Core      |
-| (Commercial Browser App) |
+|    飞鱼浏览器内核 (Core)   |
+|   (硬件级指纹模拟引擎)     |
 +--------------------------+
 ```
 
+- **飞鱼浏览器内核**: 作为本地后台服务运行。
+- **本地 HTTP API**: 自动化工具通过 API 控制浏览器环境。
+- **SDKs**: 封装 API 调用，提供开发者友好的接口。
 
+## 🛠️ 快速开始
 
-- The **FFBrowser core** runs locally as a background service
-- Automation tools communicate via a **Local HTTP API**
-- SDKs wrap API calls into developer-friendly interfaces
-- AI agents can treat FFBrowser as an executable tool
+1. **下载并安装飞鱼浏览器**: [前往官网下载](https://www.ffbrowser.xyz) (支持 Windows 7+ x64)。
+2. **启动服务**: 运行飞鱼浏览器，确保本地服务已启动。
+3. **调用 API**: 使用提供的 SDK 或直接调用本地 API 接口控制浏览器。
 
----
+## 📚 文档与资源
 
-## Local API
+- **API 文档**: 请下载并启动 **飞鱼浏览器客户端**，在软件内部查看完整的本地 API 接口说明。
 
-FFBrowser exposes a **Local HTTP API** for controlling browser environments and runtime behavior.
+## 💰 订阅价格
 
-High-level capabilities include:
+飞鱼浏览器采用灵活的订阅模式：
+- **月付**: 30 元 / 30 天
+- **年付**: 300 元 / 365 天 (优惠 18%)
+- **包含**: 无限窗口数量、无限 API 调用、无限导入导出。
+- **试用**: 新用户免费试用 3 天。
 
-- Environment lifecycle management
-- Browser instance start / stop
-- Window and tab operations
-- Batch and group control
-- Runtime status and state querying
+## 📞 联系我们
 
-📘 Documentation:
+- **官网**: https://www.ffbrowser.xyz
+- **邮箱**: mp7788414@outlook.com
+- **GitHub**: 提交 Issue 或 PR 参与贡献。
+- **QQ 交流群**: 群号：574418234(飞鱼智能指纹浏览器交流)，或扫码加入
 
-- Chinese API Documentation: `docs/api_zh.md`
-- English API Documentation: `docs/api_en.md`
-
-> API access requires a valid local installation of FFBrowser.
-
----
-
-## SDKs
-
-Official SDKs simplify interaction with the Local API and are fully open source.
-
-Planned and available SDKs:
-
-- JavaScript / TypeScript
-- Python (planned)
-
-SDK repositories:
-
-- `ffbrowser-sdk-js`
-- `ffbrowser-sdk-python`
-
-These SDKs are suitable for:
-
-- Automation frameworks
-- Workflow engines
-- AI tool calling
-- Agent-based systems
+  <img src="img/qcode.jpg" width="300" alt="QQ 交流群" />
 
 ---
-
-## AI Agent Ready
-
-FFBrowser Automation is **agent-friendly by design**.
-
-The Local API provides:
-
-- Explicit state control
-- Deterministic execution behavior
-- Clear separation between intent and execution
-- Inspectable and reproducible outcomes
-
-This makes FFBrowser suitable for:
-
-- LLM-based agents
-- Tool-calling pipelines
-- Autonomous task runners
-- Hybrid human + agent workflows
-
-Agent examples and integrations will be added progressively.
-
----
-
-## Getting Started
-
-1. Install FFBrowser (commercial product)
-2. Start the FFBrowser local service
-3. Use SDKs or direct HTTP calls to control browser environments
-
-Detailed setup instructions are available in the documentation.
-
----
-
-## Roadmap
-
-- [ ] Stable JavaScript / TypeScript SDK
-- [ ] Python SDK
-- [ ] Automation examples
-- [ ] AI agent demos
-- [ ] Workflow templates
-
----
-
-## Licensing
-
-- SDKs, examples, and documentation: **Open Source**
-- FFBrowser core (browser executable): **Commercial License**
-
----
-
-## Contact & Access
-
-For FFBrowser installation, licensing, or commercial inquiries:
-
-- Website: (https://www.ffbrowser.xyz)
-- Email: mp7788414#outlook.com
+*注：飞鱼浏览器内核为商业软件，本仓库提供的 SDK 和工具为开源项目。*
