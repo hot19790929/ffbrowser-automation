@@ -29,11 +29,11 @@
 
 以下截图展示了在 **Windows Server 2012 R2** 系统上运行飞鱼浏览器，成功模拟 **Windows 11** 和 **macOS 14.4.1** 并通过主流指纹检测网站的检测。
 
-<img src="img/2012R2_1.jpg" width="800" />
+<kbd><img src="img/2012R2_1.jpg" width="800" /></kbd>
 
-<img src="img/2012R2_2.jpg" width="800" />
+<kbd><img src="img/2012R2_2.jpg" width="800" /></kbd>
 
-<img src="img/2012R2_3.jpg" width="800" />
+<kbd><img src="img/2012R2_3.jpg" width="800" /></kbd>
 
 ## 🚀 架构概览
 
