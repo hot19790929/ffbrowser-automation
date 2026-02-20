@@ -173,5 +173,5 @@ Detailed setup instructions are available in the documentation.
 
 For FFBrowser installation, licensing, or commercial inquiries:
 
-- Website: (coming soon)
+- Website: (https://www.ffbrowser.xyz)
 - Email: mp7788414#outlook.com
