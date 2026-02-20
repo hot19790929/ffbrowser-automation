@@ -25,6 +25,16 @@
 - **自动化集成**: 易于集成 Selenium, Puppeteer, Playwright 等自动化框架。
 - **AI Agent Ready**: 专为 AI Agent 设计的确定性执行环境。
 
+## 🖼️ 产品展示
+
+以下截图展示了在 **Windows Server 2012 R2** 系统上运行飞鱼浏览器，成功模拟 **Windows 11** 和 **macOS 14.4.1** 并通过主流指纹检测网站的检测。
+
+<img src="img/2012R2_1.png" width="800" />
+
+<img src="img/2012R2_2.png" width="800" />
+
+<img src="img/2012R2_3.png" width="800" />
+
 ## 🚀 架构概览
 
 ```text
