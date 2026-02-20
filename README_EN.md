@@ -29,11 +29,11 @@ FFBrowser is not just an anti-detection tool, but a powerful automation infrastr
 
 The following screenshots demonstrate FFBrowser running on **Windows Server 2012 R2**, successfully simulating **Windows 11** and **macOS 14.4.1** environments and passing mainstream fingerprint detection sites.
 
-<img src="img/2012R2_1.png" alt="Windows Server 2012 R2 Simulating Windows 11" width="800" />
+<kbd><img src="img/2012R2_1.jpg" width="800" /></kbd>
 
-<img src="img/2012R2_2.png" alt="Windows Server 2012 R2 Simulating macOS 14.4.1" width="800" />
+<kbd><img src="img/2012R2_2.jpg" width="800" /></kbd>
 
-<img src="img/2012R2_3.png" alt="BrowserScan Deep Detection Pass" width="800" />
+<kbd><img src="img/2012R2_3.jpg" width="800" /></kbd>
 
 ## 🚀 Architecture Overview
 
