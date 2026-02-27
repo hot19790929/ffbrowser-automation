@@ -64,6 +64,7 @@
 ## 📚 文档与资源
 
 - **API 文档**: 请下载并启动 **飞鱼智能指纹浏览器客户端**，在软件内部查看完整的本地 API 接口说明。
+- **Postman 接口集合**: 可直接导入 Postman 使用的集合文件：[FFBrowser.postman_collection.json](./FFBrowser.postman_collection.json)
 
 ## 💰 订阅价格
 
@@ -78,7 +79,7 @@
 - **官网**: https://www.ffbrowser.xyz
 - **邮箱**: mp7788414@outlook.com
 - **GitHub**: 提交 Issue 或 PR 参与贡献。
-- **QQ 交流群**: 群号：574418234(飞鱼智能指纹浏览器交流)，或扫码加入
+- **QQ 交流群**: 群号：574418234(飞鱼智能指纹浏览器交流与服务)，或扫码加入
 
   <img src="img/qcode.jpg" width="300" alt="QQ 交流群" />
 
