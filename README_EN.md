@@ -64,6 +64,7 @@ The following screenshots demonstrate FFBrowser running on **Windows Server 2012
 ## 📚 Documentation & Resources
 
 - **API Documentation**: Please download and launch the **FFBrowser Client**. The complete Local API documentation is available within the software.
+- **Postman Collection**: Import the collection file directly into Postman: [FFBrowser.postman_collection.json](./FFBrowser.postman_collection.json)
 
 ## 💰 Pricing
 
