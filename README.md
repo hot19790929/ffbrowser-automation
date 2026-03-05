@@ -29,11 +29,11 @@
 
 以下截图展示了在 **Windows Server 2012 R2** 系统上运行飞鱼浏览器，成功模拟 **Windows 11** 和 **macOS 14.4.1** 并通过主流指纹检测网站的检测。
 
-<kbd><img src="img/2012R2_1.jpg" width="800" /></kbd>
+<kbd><img src="https://download.ffbrowser.xyz/img/2012R2_1.jpg" width="800" /></kbd>
 
-<kbd><img src="img/2012R2_2.jpg" width="800" /></kbd>
+<kbd><img src="https://download.ffbrowser.xyz/img/2012R2_2.jpg" width="800" /></kbd>
 
-<kbd><img src="img/2012R2_3.jpg" width="800" /></kbd>
+<kbd><img src="https://download.ffbrowser.xyz/img/2012R2_3.jpg" width="800" /></kbd>
 
 ## 🚀 架构概览
 
@@ -81,7 +81,7 @@
 - **GitHub**: 提交 Issue 或 PR 参与贡献。
 - **QQ 交流群**: 群号：574418234(飞鱼智能指纹浏览器交流与服务)，或扫码加入
 
-  <img src="img/qcode.jpg" width="300" alt="QQ 交流群" />
+  <img src="https://download.ffbrowser.xyz/img/qcode.jpg" width="300" alt="QQ 交流群" />
 
 ---
 *注：飞鱼浏览器内核为商业软件，本仓库提供的 SDK 和工具为开源项目。*
