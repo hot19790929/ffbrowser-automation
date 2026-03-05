@@ -29,11 +29,11 @@ FFBrowser is not just an anti-detection tool, but a powerful automation infrastr
 
 The following screenshots demonstrate FFBrowser running on **Windows Server 2012 R2**, successfully simulating **Windows 11** and **macOS 14.4.1** environments and passing mainstream fingerprint detection sites.
 
-<kbd><img src="img/2012R2_1.jpg" width="800" /></kbd>
+<kbd><img src="https://download.ffbrowser.xyz/img/2012R2_1.jpg" width="800" /></kbd>
 
-<kbd><img src="img/2012R2_2.jpg" width="800" /></kbd>
+<kbd><img src="https://download.ffbrowser.xyz/img/2012R2_2.jpg" width="800" /></kbd>
 
-<kbd><img src="img/2012R2_3.jpg" width="800" /></kbd>
+<kbd><img src="https://download.ffbrowser.xyz/img/2012R2_3.jpg" width="800" /></kbd>
 
 ## 🚀 Architecture Overview
 
@@ -81,7 +81,7 @@ FFBrowser offers flexible subscription models:
 - **GitHub**: Submit Issues or PRs to contribute.
 - **QQ Group**: Group ID: 574418234 (FFBrowser Discussion), or scan code to join
 
-  <img src="img/qcode.jpg" width="300" alt="QQ Group QR Code" />
+  <img src="https://download.ffbrowser.xyz/img/qcode.jpg" width="300" alt="QQ Group QR Code" />
 
 ---
 *Note: The FFBrowser core is commercial software, while the SDKs and tools provided in this repository are open source.*
