@@ -1079,7 +1079,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"protocol\":\"HTTP\",\n    \"host\":\"127.0.0.1\",\n    \"port\":10809,\n    \"proxyUserName\": \"user\",\n    \"proxyPassword\": \"pass\"\n}",
+          "raw": "{\n    \"protocol\":\"HTTP\",\n    \"host\":\"127.0.0.1\",\n    \"port\":10809,\n    \"proxyUserName\": \"user\",\n    \"proxyPassword\": \"pass\",\n    \"remark\":\"remark\",\n    \"refreshUrl\":\"https://www.test.com\",\n    \"autoRefresh\":0\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -1143,7 +1143,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"id\":29,\n    \"protocol\":\"HTTP\",\n    \"host\":\"127.0.0.1\",\n    \"port\":10809,\n    \"proxyUserName\": \"1\",\n    \"proxyPassword\": \"1\"\n}",
+          "raw": "{\n    \"id\":50,\n    \"protocol\":\"HTTP\",\n    \"host\":\"127.0.0.1\",\n    \"port\":10809,\n    \"proxyUserName\": \"1\",\n    \"proxyPassword\": \"1\",\n    \"remark\":\"demo\",\n    \"refreshUrl\":\"https://www.demo.com\",\n    \"autoRefresh\":1\n}",
           "options": {
             "raw": {
               "language": "json"
